@@ -1,9 +1,9 @@
-import './BannerPageHome.css'
+import './BannerPageHome.scss'
 
 const BannerPageHome = () => {
   return (
     <div className='banner'>
-      <div>
+      <div className='area-txt-banner'>
         <h1>
           Fique por dentro dos
           <br></br>

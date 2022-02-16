@@ -1,7 +1,7 @@
 import React from 'react'
 import './global.css'
-import Header from './header/Header'
-import BannerPageHome from './bannerPageHome/BannerPageHome'
+import Header from './components/header/Header'
+import BannerPageHome from './components/bannerPageHome/BannerPageHome'
 
 const App = () => {
   return(
