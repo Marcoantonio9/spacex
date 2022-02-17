@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Roboto:wght@300;400&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;    
+}
+
+#footer{
+  height: 70px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span{
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+
+    a{
+      color: grey;
+    }
+  }
+}
