@@ -80,3 +80,13 @@
   }
 
 }
+
+@media(max-width: 768px){
+  #lauches{
+    .area-cards-lauches{
+      h2{
+        font-size: 14px;        
+      }
+    }
+  }
+}
