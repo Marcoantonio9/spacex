@@ -39,7 +39,7 @@ const Rockets = () => {
                 <p>Peso: </p>
               </div>
               <div>
-                <p>{item.mass.kg} KG</p>
+                <p>{Number(item.mass.kg).toLocaleString()} KG</p>
               </div>
             </div>     
             <div className="list-infos list-infos-twodisplay">
