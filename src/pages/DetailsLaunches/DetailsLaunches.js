@@ -33,13 +33,13 @@ const DetaisLaunches = () => {
           <span>Sem Informação</span>
         }
       </div>
-      {img != null ?
+      {img !== null ?
         <img src={img} />
         :
         <p>Imagem não encontrada.</p>
       }
 
-      {objitem.details != null ?
+      {objitem.details !== null ?
         <p>{objitem.details}</p>
         :
         <p>Não foi encontrado mais informações.</p>

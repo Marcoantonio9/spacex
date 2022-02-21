@@ -23,7 +23,7 @@ const Rockets = () => {
       <h1>Foguetes:</h1>
       {rockets.map((item, index) => (
         <div className="area-rocket" key={index}>
-          <div className="area-infos" style={index%2 != 0 ? stylePost : {order: 0}}>          
+          <div className="area-infos" style={index%2 !== 0 ? stylePost : {order: 0}}>          
             <h1>{item.name}</h1>
             <div className="list-infos">
               <div>
@@ -52,8 +52,8 @@ const Rockets = () => {
             </div>                    
           </div>
 
-          <div className="area-img" style={index%2 != 0 ? {paddingLeft: '30px'} : {paddingLeft: ''}}>
-            <img src={item.flickr_images[0]} />
+          <div className="area-img" style={index%2 !== 0 ? {paddingLeft: '30px'} : {paddingLeft: ''}}>
+            <img src={item.flickr_images[0]}  alt="Imagem do modelo de foguete"/>
           </div>
         </div>
       ))}

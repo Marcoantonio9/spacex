@@ -28,7 +28,7 @@ const NextLaunches = () => {
   }
 
   React.useEffect(() => {    
-    if(sliceItems.length != 0 && sliceItems.length == nextLauches.length){
+    if(sliceItems.length !== 0 && sliceItems.length == nextLauches.length){
       setStatusBtnHide(true)
     }
   }, [numberNextLauches])

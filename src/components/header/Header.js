@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className={navbar ? 'header active' : 'header'}>
       <div className="logo">
-        <img src='/images/logo.png' />
+        <img src='/images/logo.png' alt="Logo"/>
       </div>
     </div>
   )

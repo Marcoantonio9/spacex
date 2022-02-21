@@ -30,7 +30,7 @@ const LastLaunches = () => {
   }
 
   React.useEffect(() => {
-    if (sliceItems.length != 0 && sliceItems.length == pastLaunches.length) {
+    if (sliceItems.length !== 0 && sliceItems.length == pastLaunches.length) {
       setStatusBtnHide(true)
     }
   }, [numberPastLaunches])
